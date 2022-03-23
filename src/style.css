@@ -1,0 +1,152 @@
+body {
+    background: url('./leaf.jpeg');
+    background-size: no-repeat;
+    background-blend-mode: darken;
+}
+
+#content {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+#title_page {
+    color: white;
+    font-size: 64px;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#linkContainer {
+    border-color: white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#link {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#summaryContainer {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+#summary {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#timeslot {
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 80px 0px 0px 0px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#hours {
+    color: white;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style-type: none;
+    margin: 15px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#locationContainer {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 60px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#location {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#disclaimer {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#cocktailtitle {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#menu1title, #menu2title, #menu3title, #menu4title, #menu5title, #menu6title, #menu7title, #menu8title {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8 {
+    color: white;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#infoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contactBox {
+    border-color: white;
+    border-style: solid;
+    width: 500px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#position, #contactName, #contactNumber, #email {
+    color: white;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    text-shadow: 2px 2px 4px #000000;
+}
